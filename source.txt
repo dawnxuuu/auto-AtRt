@@ -1,0 +1,22 @@
+:method: POST
+:path: /api/app/bapp
+:authority: rd-pre.zhaopin.com
+:scheme: https
+x-zp-departmentid: 122278914
+x-zp-rt: c7d2ebb4554f41588c1923277fc07846
+x-zp-client-id: ffffffff-e0d9-0905-0033-c5870033c587
+x-zp-at: 80b43f9903634a0e90422ab4d44bc687
+x-zp-user-agent: 
+x-zp-version: 6.7.2
+x-zp-channel: zhaopin
+x-zp-client-type: a
+x-zp-business-system: 23
+x-zp-device-id: ffffffff-e0d9-0905-0033-c5870033c587
+content-type: application/json
+user-agent: HMA-AL00(Android/10) (com.zhaopin.ihr/6.7.2) Weex/0.28.0 1080x2163
+wtoken: BYTR_h8BTL7vp9PaDghnVXKH4Vkm5ykyjdG7ei5M73r9/bmUiNZeXk4ejpLYNfTVKZBzBxOdmK/falfEVtyMIIR/Ix5bRN/opbAn9btcKOCoZPiNfpk2g+7jT/Cmvtv4s+a5tpDICQ2zSmuMJhscOxGVO1C7eOB0OvWmDb7TEQqyJC8Q+gHT+7eLxqPoQKGCbb0PXNFD1R+wELcReQArsj4gJ484XQIa8sHzJeVrb5y08juf1lwItcZhX0/TEYED4UhM22F8yfXpvJ6M9NSuKJFrwsVSp4nBvTovjsMoLwrSRzDaH+5md3FiOOxRwO5WNtKlMvBPxl9sCGRx5+wxY5uHPiXmzUtB4TX4Ej6blY0ATCcidYW/moUUZ1+Fd+WTW5Ha8gvR+aQMOsl5IrwYwrm8pRSHpAw4Q9TCjaETtmtUhDj1cmJF5NX6DAIoamzKDg2RM39ucUtw8FV+AB/MMnm6a7N9MX3r/85lY27FUaqQcRjj3+ejuo2SXWAcQnX0ADu96&AWER_a001335aa9d6ebb6dc7a77f2fd4d2c04432b6df7e76e6
+x-tingyun-id: 60EHDRW9b-w;c=2;r=1931207693;u=be162e83954e5e06f975ded08a0e4ea1::BA49728C6C2C9EFD
+content-length: 324
+accept-encoding: gzip
+
+{"query":"query ($path: String, $params: Raw!) { proxy(path: $path, params: $params)}","variables":{"path":"talentBomb/talentBomb/listTalentBombInfoAggregation","params":{"rootOrgId":122278914,"staffId":1078641476,"status":3,"orderType":1,"beginTime":1593587364205,"endTime":1594192164205,"page":{"pageNo":1,"pageSize":2}}}}
